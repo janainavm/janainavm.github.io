@@ -17,7 +17,7 @@
     'boot-component': 'components/boot-component.js',
     
     // imagem component
-    'jana-749x1011-component': 'imagens/jana-749x1011-component.js',
+    'jana749x1011-component': 'imagens/jana749x1011-component.js',
 
     'index': 'js/bootstrap.js'
   }
