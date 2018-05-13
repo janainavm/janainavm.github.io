@@ -18,6 +18,7 @@
     
     // imagem component
     'jana749x1011-component': 'imagens/jana749x1011-component.js',
+    'jana300x300-component': 'imagens/jana300x300-component.js',
 
     'index': 'js/bootstrap.js'
   }
