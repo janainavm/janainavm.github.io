@@ -3,7 +3,7 @@
  * 
  */
 
-define(['h-vue', 'jana-749x1011-component'], ({ H }, jana749x1011Component) => {
+define(['h-vue', 'jana749x1011-component'], ({ H }, jana749x1011Component) => {
 
   const version = '0.0.1';
 
@@ -28,7 +28,7 @@ define(['h-vue', 'jana-749x1011-component'], ({ H }, jana749x1011Component) => {
   })
 
 
-return { version, data, render }
+return { version, data, render, components }
 
 })
 
