@@ -15,6 +15,9 @@
     'h-vue': 'https://cdn.jsdelivr.net/gh/sicinfo/hypertag@0.8.4/lib/h-vue.js',
 
     'boot-component': 'components/boot-component.js',
+    
+    // imagem component
+    'jana-749x1011-component': 'imagens/jana-749x1011-component.js',
 
     'index': 'js/bootstrap.js'
   }
