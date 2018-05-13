@@ -10,7 +10,7 @@ define(['h-vue', 'jana749x1011-component', 'jana300x300-component', 'prof1000x48
 
   const components = {
     'jana749x1011-view': jana749x1011Component,
-    'jana300x300-view': jana300x300Component
+    'jana300x300-view': jana300x300Component,
     'prof1000x483-view': prof1000x483Component
   }
 
