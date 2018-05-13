@@ -3,13 +3,15 @@
  * 
  */
 
-define(['h-vue', 'jana749x1011-component', 'jana300x300-component'], ({ H }, jana749x1011Component, jana300x300Component) => {
+define(['h-vue', 'jana749x1011-component', 'jana300x300-component', 'prof1000x483-component'],
+ ({ H }, jana749x1011Component, jana300x300Component, prof1000x483Component) => {
 
   const version = '0.0.1';
 
   const components = {
     'jana749x1011-view': jana749x1011Component,
     'jana300x300-view': jana300x300Component
+    'prof1000x483-view': prof1000x483Component
   }
 
   const render = H(function(h) {
@@ -19,7 +21,9 @@ define(['h-vue', 'jana749x1011-component', 'jana300x300-component'], ({ H }, jan
       
       h('div', h('jana749x1011-view')),
       
-      h('div', h('jana300x300-view'))
+      h('div', h('jana300x300-view')),
+
+      h('div', h('prof1000x483-view'))
     )
 
     // img style='display:block; width:100px;height:100px;' id='base64image'                 
